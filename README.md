@@ -36,8 +36,8 @@ Follow these steps to set up the project locally on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/harshavardhan3108/CryptoCurrency.git
-    cd CryptoCurrency/CryptoTracker-main/cryptotracker
+    git clone https://github.com/Avinash21102005/cryptotracker.git
+    
     ```
     *(Note: Adjust the path if you cloned specifically into a different folder structure)*
 
