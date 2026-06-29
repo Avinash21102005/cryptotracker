@@ -139,7 +139,7 @@ const ContactUs = () => {
                 name="checkbox"
                 defaultChecked
               />{' '}
-              Yes, I would like to receive communications by call / email about Company's services.
+              Yes, I would like to receive communications by call / email about Company&apos;s services.
             </p>
             <p className="full-width">
               <input
@@ -161,7 +161,7 @@ const ContactUs = () => {
         <div className="contacts contact-wrapper">
           <ul>
             <li>
-            We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, please fill out the form below and we'll get back to you as soon as possible.
+              We&apos;d love to hear from you! Whether you have a question, feedback, or just want to say hello, please fill out the form below and we&apos;ll get back to you as soon as possible.
             </li>
             <span className="highlight-contact-info">
               <li className="email-info">

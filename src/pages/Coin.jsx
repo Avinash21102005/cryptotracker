@@ -1,12 +1,12 @@
-import React, { useEffect ,useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import Headerindex from "../compontes/common/Header/Headerindex";
-import Loaderindex from "../compontes/common/Loader/Loaderindex";
+import Headerindex from "../components/common/Header/Headerindex";
+import Loaderindex from "../components/common/Loader/Loaderindex";
 import { coinObject } from "../functions/coinObject";
-import Listindex from "../compontes/dashboard/List/Listindex";
-import Coininfo from "../compontes/coin/Coininfor/Coininfo";
-import BasicAreaChart from "../compontes/coin/Coininfor/Linechart/Linechart";
+import Listindex from "../components/dashboard/List/Listindex";
+import Coininfo from "../components/coin/Coininfor/Coininfo";
+import BasicAreaChart from "../components/coin/Coininfor/Linechart/Linechart";
 
 const useCoinData = (id) => {
   const [coinData, setCoinData] = useState({});
@@ -92,9 +92,9 @@ const Coin = () => {
   // Format marketData for the chart
   const formattedMarketData = marketData
     ? marketData.map(([timestamp, price]) => ({
-        date: new Date(timestamp).toLocaleDateString(),
-        price,
-      }))
+      date: new Date(timestamp).toLocaleDateString(),
+      price,
+    }))
     : [];
 
   return (

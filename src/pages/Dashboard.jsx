@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Headerindex from "../compontes/common/Header/Headerindex";
-import Tabs from "../compontes/dashboard/Tabs/Tabs";
+import Headerindex from "../components/common/Header/Headerindex";
+import Tabs from "../components/dashboard/Tabs/Tabs";
 import axios from "axios";
-import Search from "../compontes/dashboard/Search/Search";
-import Pageindex from "../compontes/dashboard/Pagenations/Pageindex";
-import Loaderindex from "../compontes/common/Loader/Loaderindex";
-import Backtotop from "../compontes/common/Backtotop/Backtotop";
+import Search from "../components/dashboard/Search/Search";
+import Pageindex from "../components/dashboard/Pagenations/Pageindex";
+import Loaderindex from "../components/common/Loader/Loaderindex";
+import Backtotop from "../components/common/Backtotop/Backtotop";
 
 const Dashboard = () => {
   const [coins, setCoins] = useState([]);
@@ -52,7 +52,7 @@ const Dashboard = () => {
   return (
     <>
       <Headerindex />
-      <Backtotop/>
+      <Backtotop />
       {isloading ? (
         <Loaderindex />
       ) : (
